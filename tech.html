@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technologie IA • Alarm Vision</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body class="antialiased">
+
+  <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-black/5 py-2">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-1.5 shrink-0">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="1.8"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+        <div class="flex flex-col leading-tight"><span class="text-xl font-black tracking-tight">ALARM<span class="text-red-600">VISION</span></span><span class="tagline tracking-widest text-gray-500 font-medium text-[9px]">LA SÉCURITÉ RÉINVENTÉE</span></div>
+      </a>
+      <div class="flex items-center gap-0.5 md:gap-4 flex-wrap justify-end">
+        <a href="index.html" class="hidden sm:block text-xs md:text-sm font-medium px-1.5 md:px-2 py-1 text-gray-700 hover:text-black">Accueil</a>
+        <a href="tech.html" class="hidden sm:block text-xs md:text-sm font-medium px-1.5 md:px-2 py-1 text-red-600 border-b-2 border-red-600">Technologie</a>
+        <a href="services.html" class="hidden sm:block text-xs md:text-sm font-medium px-1.5 md:px-2 py-1 text-gray-700 hover:text-black">Services</a>
+        <a href="contact.html" class="hidden sm:block text-xs md:text-sm font-medium px-1.5 md:px-2 py-1 text-gray-700 hover:text-black">Contact</a>
+        <a href="devis.html" class="bg-black text-white px-3 md:px-5 py-2 text-xs md:text-sm font-medium rounded-full hover:bg-red-600 transition">Devis gratuit</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-28 pb-20 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="inline-block bg-red-100 text-red-600 text-xs font-bold px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">Technologie de pointe</span>
+        <h2 class="text-4xl md:text-5xl font-black mb-4">L'IA au service de <span class="text-red-600">votre sécurité</span></h2>
+        <p class="text-lg text-gray-500 max-w-2xl mx-auto">Des algorithmes entraînés sur des millions de situations réelles pour une protection qui ne laisse rien au hasard.</p>
+      </div>
+
+      <!-- Feature 1 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+        <div><div class="relative"><img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Détection IA"><div class="absolute top-4 left-4 px-3 py-1.5 rounded-full text-white text-xs font-bold bg-red-600">Deep Learning</div></div></div>
+        <div><h3 class="text-2xl md:text-3xl font-black mb-3">Détection IA en temps réel</h3><p class="text-gray-600 leading-relaxed mb-6">Notre moteur d'intelligence artificielle analyse chaque image à 30 fps. Il distingue instantanément une silhouette humaine d'un animal, d'une ombre ou d'un mouvement de végétation. Résultat : zéro fausse alerte, uniquement des menaces réelles.</p><div class="grid grid-cols-3 gap-4"><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-red-600">99,7%</div><div class="text-xs text-gray-500">précision</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-red-600">&lt;0,3s</div><div class="text-xs text-gray-500">temps détection</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-red-600">0</div><div class="text-xs text-gray-500">fausse alerte</div></div></div></div>
+      </div>
+      <!-- Feature 2 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="md:order-last"><div class="relative"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Vision nocturne"><div class="absolute top-4 left-4 px-3 py-1.5 rounded-full text-white text-xs font-bold bg-blue-700">Infrarouge actif</div></div></div>
+        <div><h3 class="text-2xl md:text-3xl font-black mb-3">Vision nocturne 4K ultra HD</h3><p class="text-gray-600 leading-relaxed mb-6">Nos caméras voient dans l'obscurité totale jusqu'à 50 mètres avec une résolution 4K. L'infrarouge actif s'adapte automatiquement aux conditions lumineuses. Jour et nuit, chaque détail est capturé avec une précision chirurgicale.</p><div class="grid grid-cols-3 gap-4"><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-blue-700">50m</div><div class="text-xs text-gray-500">portée nocturne</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-blue-700">4K</div><div class="text-xs text-gray-500">résolution</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-blue-700">140°</div><div class="text-xs text-gray-500">angle de vue</div></div></div></div>
+      </div>
+      <!-- Feature 3 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+        <div><div class="relative"><img src="https://img.freepik.com/photos-gratuite/concept-collage-reconnaissance-faciale_23-2150038886.jpg?semt=ais_hybrid&w=740&q=80" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Biométrie"><div class="absolute top-4 left-4 px-3 py-1.5 rounded-full text-white text-xs font-bold bg-emerald-700">Reconnaissance faciale</div></div></div>
+        <div><h3 class="text-2xl md:text-3xl font-black mb-3">Contrôle d'accès biométrique</h3><p class="text-gray-600 leading-relaxed mb-6">128 points biométriques analysés en 0,2 seconde. Notre système reconnaît les visages même masqués partiellement, détecte les tentatives de fraude par photo ou vidéo, et alerte instantanément en cas d'intrusion non autorisée.</p><div class="grid grid-cols-3 gap-4"><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-emerald-700">128</div><div class="text-xs text-gray-500">points analysés</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-emerald-700">0,2s</div><div class="text-xs text-gray-500">identification</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-emerald-700">3 ans</div><div class="text-xs text-gray-500">garantie</div></div></div></div>
+      </div>
+      <!-- Feature 4 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+        <div class="md:order-last"><div class="relative"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Stockage local"><div class="absolute top-4 left-4 px-3 py-1.5 rounded-full text-white text-xs font-bold bg-purple-700">Données en local</div></div></div>
+        <div><h3 class="text-2xl md:text-3xl font-black mb-3">Stockage 100% local et sécurisé</h3><p class="text-gray-600 leading-relaxed mb-6">Toutes vos données vidéo sont enregistrées directement sur vos équipements, chez vous. Aucun cloud, aucun serveur externe, aucune dépendance à une connexion internet. Vous êtes seul maître de vos enregistrements, en toute confidentialité.</p><div class="grid grid-cols-3 gap-4"><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-purple-700">100%</div><div class="text-xs text-gray-500">données locales</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-purple-700">0</div><div class="text-xs text-gray-500">serveur externe</div></div><div class="text-center p-3 bg-gray-50 rounded-xl"><div class="text-xl font-black text-purple-700">RGPD</div><div class="text-xs text-gray-500">conforme</div></div></div></div>
+      </div>
+
+      <div class="mt-4 p-8 bg-black rounded-3xl text-white text-center">
+        <p class="text-lg font-bold mb-1">Certification & conformité</p>
+        <p class="text-gray-400 text-sm">Tous nos systèmes sont certifiés CE, EN 62676, APSAD R82 et conformes RGPD. Vos données ne quittent jamais vos locaux.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t py-8 bg-white">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="1.8"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg><span class="font-black text-sm">ALARM<span class="text-red-600">VISION</span></span></div>
+      <div class="flex flex-wrap gap-4 text-xs text-gray-400 justify-center"><a href="legal.html" class="hover:text-black">Mentions légales</a><a href="cgv.html" class="hover:text-black">CGV</a><a href="contact.html" class="hover:text-black">Contact</a></div>
+      <p class="text-xs text-gray-400">© 2026 Alarm Vision</p>
+    </div>
+  </footer>
+
+  <div id="sav-container"></div>
+  <script src="assets/js/common.js"></script>
+</body>
+</html>
